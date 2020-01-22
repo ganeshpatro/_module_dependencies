@@ -1,0 +1,27 @@
+{
+  "name": "module2",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "summary": "Summary module 2",
+  "requires_arc": true,
+  "version": "2.3",
+  "license": {
+    "type": "",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ganesh": "ganesh.patro@email.com"
+  },
+  "homepage": "https://github.com/rwbutler/Connectivity",
+  "source": {
+    "git": "https://github.com/rwbutler/Connectivity",
+    "tag": "2.3"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "source_files": "module2/**/*.{swift,c,h,m,modulemap}",
+  "resources": ""
+}

@@ -1,0 +1,22 @@
+PODS:
+  - module1 (2.3):
+    - module2
+  - module2 (2.3)
+
+DEPENDENCIES:
+  - module1 (from `../../module1/module1`)
+  - module2 (from `../../module2/module2`)
+
+EXTERNAL SOURCES:
+  module1:
+    :path: "../../module1/module1"
+  module2:
+    :path: "../../module2/module2"
+
+SPEC CHECKSUMS:
+  module1: 0b11532c10e408cee09f19e1d84427a222195f16
+  module2: efe0b768d968ce416519b0e3dcc182879478a347
+
+PODFILE CHECKSUM: e3163f17a381d0137a83b0c48f971d65e8c059d2
+
+COCOAPODS: 1.8.4
